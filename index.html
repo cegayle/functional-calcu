@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="java1.css">
+</head>
+<body>
+  <div class="calculator">
+    <input class="text" id="display" disabled> 
+    <div class="buttons">
+      <button onClick="append('7')">7</button>
+      <button onClick="append('8')">8</button>
+      <button onClick="append('9')">9</button>
+      <button onClick="append('/')">/</button>
+      <br>
+      <button onClick="append('4')">4</button>
+      <button onClick="append('5')">5</button>
+      <button onClick="append('6')">6</button>
+      <button onClick="append('*')">x</button>
+      <br>
+      <button onClick="append('1')">1</button>
+      <button onClick="append('2')">2</button>
+      <button onClick="append('3')">3</button>
+      <button onClick="append('-')">-</button>
+      <br>
+      <button onClick="append('%')">%</button>
+      <button onClick="append('0')">0</button>
+      <button onClick="append('.')">.</button>
+      <button onClick="append('+')">+</button>
+      <br>
+      <button onClick="clearDisplay()" style="background-color: #9752c4;">clear</button>
+      <button onClick="backspace()">delete</button>
+      <button onClick="calculate()" style="background-color: #9752c4;">=</button>
+    </div>
+  </div>
+
+  <script src="calcu.js"></script>
+</body>
+</html>
